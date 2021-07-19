@@ -22,7 +22,16 @@ var li57= $("#element_57").val();
 var li59= $("#element_59").val();
 var li60= $("#element_60").val();
 var li62= $("#element_62").val();
-var li64= $("#element_64").val();
+var li64_input=$("input[name='element_64']:checked").val();
+var li64;
+if(li64_input=="1")
+{
+	li64="Yes";
+}
+else
+{
+	li64="No";
+}
  
 var mm58=$("#element_58_1").val();
 var dd58=$("#element_58_2").val();
