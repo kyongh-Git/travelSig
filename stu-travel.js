@@ -1,6 +1,16 @@
 $(function() {
 $("#submit_form").click(function(e){
-var camp= $("#element_66").val();
+	
+var li66_input=$("input[name='element_66']:checked").val();
+var camp;
+if(li66_input=="1")
+{
+	camp="Stillwater";
+}
+else
+{
+	camp="Tulsa";
+}
 var li1a= $("#element_1_1").val();
 var li1b= $("#element_1_2").val();
 var li2= $("#element_2").val();
