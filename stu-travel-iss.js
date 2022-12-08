@@ -67,7 +67,7 @@ var name2= $("#element_1_2").val();
         }
  if (reasonsfordenial4 == 1) {
         var reason4;
- reason4 = "• Address has not been changed in self service. ";
+ reason4 = "• Address has not been changed in self service. Please check your address start date and end date is correct. ";
    reasons = reasons + reason4 + " \n";
         }
  //if (reasonsfordenial5 == 1) {
